@@ -27,7 +27,7 @@ header {
 nav ul {
   display: flex;
   list-style: none;
-  margin-left: 400px;
+  margin-left: 500px;
 }
 
 nav ul li {
@@ -47,7 +47,6 @@ nav ul li a {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-bottom: 20px;
 }
 
 .hero {
@@ -75,7 +74,73 @@ nav ul li a {
 .main-demo{
   width: 500px;
   height: 295px;
-  top: 220px;
-  left: 170px;
   text-align: left;
+}
+
+.btn-2 {
+  background-color: #ff5a5f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.box{
+  height: 1440px;
+  height: 1490px;
+}
+
+.box-repeat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.box-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+
+.box-main1{
+  width: 870px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px ;
+}
+
+.box-main2{
+  width: 870px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px ;
+}
+
+.box-main3{
+  width: 870px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px ;
+}
+
+.box-main4{
+  width: 870px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px ;
 }
