@@ -27,7 +27,7 @@ header {
 nav ul {
   display: flex;
   list-style: none;
-  margin-left: 500px;
+  margin-left: 460px;
 }
 
 nav ul li {
@@ -88,7 +88,7 @@ nav ul li a {
 }
 
 .box{
-  height: 1440px;
+  width: 1440px;
   height: 1490px;
 }
 
@@ -98,14 +98,20 @@ nav ul li a {
   align-items: center;
   margin-top: 30px;
 }
+
 .box-img{
   width: 200px;
   height: 200px;
   border-radius: 25px;
 }
 
+.box-type{
+  width: 600px;
+  height: 150px;
+  margin-left: 20px;
+}
 
-.box-main1{
+.box-main{
   width: 870px;
   height: 200px;
   display: flex;
@@ -115,32 +121,36 @@ nav ul li a {
   margin-top: 50px ;
 }
 
-.box-main2{
-  width: 870px;
-  height: 200px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: auto;
-  margin-top: 50px ;
+.box-size{
+  margin-bottom: 15px;
 }
 
-.box-main3{
-  width: 870px;
-  height: 200px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: auto;
-  margin-top: 50px ;
+.box-pronouns{
+  margin-top: 30px;
 }
 
-.box-main4{
-  width: 870px;
-  height: 200px;
+.btn-3{
+  background-color: #ff5a5f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin: auto;
-  margin-top: 50px ;
+}
+
+footer{
+  height: 255px;
+  background-color: #007bff;
+}
+.footer-start{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text{
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
