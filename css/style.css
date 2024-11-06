@@ -9,6 +9,85 @@ body {
   background-color: #f4f4f4;
 }
 
+/* Mobil telefonlar uchun o‘lchamlarni sozlash */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px; /* Matn o‘lchamini kichraytirish */
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar a {
+    display: block;
+    padding: 10px;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* Suratlarning kengligini o‘zgartirish */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Planshetlar va kichik ekranlar uchun */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 20px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  input, button, textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+  }
+}
+
+
 header {
   display: flex;
   justify-content: space-around;
